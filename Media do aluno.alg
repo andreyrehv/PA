@@ -20,7 +20,7 @@ leia(B3)
 escreval("Digite a nota B4")
 leia(B4)
 media<- (B1+B2+B3+B4)/4
-escreval("A media do aluno", NA, "é:", media)
+escreval("A media do aluno ", NA, "é:", media)
 
 
 
