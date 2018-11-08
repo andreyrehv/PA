@@ -22,7 +22,7 @@ int main(){
 	}
 	if(A==B && A==C){
 		printf("Triângulo equilátero, que tem todos os lados iguais A= %f, B= %f, C= %f", A, B, C);
-	}else {if(A != B && C){
+	}else {if(A != B && A != C){
 		printf("Triângulo isósceles, que tem a base diferente A= %f, B= %f, C= %f", A, B, C);
 	}else {if(A != B && A != C && B != C ){
 		printf("Triângulo escaleno, que tem todos os lados diferente A= %f, B= %f, C= %f", A, B, C);
